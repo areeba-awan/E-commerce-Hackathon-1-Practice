@@ -105,7 +105,7 @@ const AboutPage = () => {
                         alt='per-2'
                         className="w-full h-auto"
                     />
-                    <h1 className='font-bold text-[24px] sm:text-[32px] mt-4 text-center'>Tom Cruise</h1>
+                    <h1 className='font-bold text-[24px] sm:text-[32px] mt-4 text-center'>Emma Watson</h1>
                     <p className='text-center'>Founder & Chairman</p>
                     <Image
                         src={"/images/social-media.png"}
@@ -123,7 +123,7 @@ const AboutPage = () => {
                         alt='per-3'
                         className="w-full h-auto"
                     />
-                    <h1 className='font-bold text-[24px] sm:text-[32px] mt-4 text-center'>Tom Cruise</h1>
+                    <h1 className='font-bold text-[24px] sm:text-[32px] mt-4 text-center'>Will Smith</h1>
                     <p className='text-center'>Founder & Chairman</p>
                     <Image
                         src={"/images/social-media.png"}
