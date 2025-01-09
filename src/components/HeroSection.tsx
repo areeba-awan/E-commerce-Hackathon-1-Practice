@@ -75,25 +75,42 @@ const HeroSection = () => {
 
                         {/* Right Content */}
                         <div className="w-full md:w-[250px] lg:w-[300px] flex justify-center">
-                            <Image
+                       
+
+                        <Image
+                          src="/images/hero-sec.png"
+                          alt="mobile-image"
+                          width={496} 
+                          height={0} 
+                          className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+                          priority
+
+                        />
+   
+                                {/* <Image
                                 src="/images/hero-sec.png"
                                 alt="mobile-image"
                                 width={496}
                                 height={352}
                                 className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
-                            />
+                                priority
+                            /> */}
                         </div>
                     </div>
 
                     {/* Dots Section */}
                     <div className="mt-6 flex justify-center">
+                    <img src="http://localhost:3000/images/dot.svg"  style={{ width: '100px', height: 'auto' }} alt="Dot" />
+
+
+{/* 
                         <Image
                             src="/images/dot.svg"
                             alt="dots-image"
                             width={90}
                             height={12}
                             className="object-contain"
-                        />
+                        /> */}
                     </div>
                 </div>
             </div>

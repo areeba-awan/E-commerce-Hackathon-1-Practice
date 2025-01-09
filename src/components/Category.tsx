@@ -6,13 +6,21 @@ const Category = () => {
         <div className="mt-16 mb-10 px-6 lg:px-28">
             {/* Image Section */}
             <div className="flex justify-center lg:justify-start">
-                <Image
+
+            <img src="/images/category-img.png" 
+            style={{ width: '150px', 
+                
+            height: 'auto' }} 
+            alt="Category" />
+
+                
+                {/* <Image
                     src="/images/category-img.png"
                     alt="category"
                     width={80}
                     height={40}
                     className="h-auto"
-                />
+                /> */}
             </div>
 
             {/* Heading Section */}

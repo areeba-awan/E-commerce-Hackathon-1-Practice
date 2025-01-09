@@ -28,7 +28,7 @@ const AboutPage = () => {
                         src={"/images/side-img.png"}
                         alt='side-img'
                         width={705}
-                        height={609}
+                        height={609}// 609
                         className="w-full h-auto"
                     />
                 </div>
@@ -36,12 +36,19 @@ const AboutPage = () => {
 
             <div className='flex flex-wrap items-center justify-evenly mt-16 gap-6'>
                 <div className='w-[270px] h-[230px] border border-black rounded flex flex-col items-center justify-center gap-2 hover:bg-[#d58530] hover:text-[#FAFAFA] hover:border-none'>
+                 
                     <Image
+                      src="/images/ico1.png"
+                      alt="Icon"
+                      width={80}
+                      height={80}
+                      layout="intrinsic" // This ensures the image maintains its aspect ratio
+                    />   {/* <Image
                         src={"/images/ico1.png"}
                         alt='icon-1'
                         width={80}
                         height={80}
-                    />
+                    /> */}
                     <h3 className='text-[32px] font-bold'>10.5k</h3>
                     <p>Sellers active on our site</p>
                 </div>

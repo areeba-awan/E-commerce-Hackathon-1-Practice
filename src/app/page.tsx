@@ -14,6 +14,7 @@ import Explore from '@/components/Explore';
 import Link from 'next/link'
 
 
+
 const page = () => {
     return (
         <div>
@@ -80,6 +81,7 @@ const page = () => {
                     lowPrice='$360'
                     rating="/images/five-star.png"
                     category='(65)'
+                    
                 />
                 <ProductCard
                     image='/images/bag.png'
@@ -149,6 +151,10 @@ const page = () => {
                     rating="/images/five-star.png"
                     category='(65)'
                     dot="/images/dots.png"
+                    
+
+                    
+
                 />
                 <MoreProducts
                     image='/images/shoes.png'

@@ -37,6 +37,7 @@ const MoreProducts: React.FC<MoreProducts> = ({ image, heading, price, rating, c
                 height={20}
                 alt='dot'
                 className='ml-auto'
+                style={{ height: '10px', width: 'auto' }} 
             />
         </div>
     )
