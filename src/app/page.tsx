@@ -13,12 +13,13 @@ import React from 'react';
 import Explore from '@/components/Explore';
 import Link from 'next/link'
 
+
 const page = () => {
     return (
         <div>
             <HeroSection />
             <Today />
-            <div className="flex flex-wrap gap-4 justify-center lg:justify-evenly mt-8">
+            <div className="flex flex-wrap gap-5 justify-center lg:justify-center mt-8">
                 <SalesCard
                     image="/images/gamepad.png"
                     heading="HAVIT HV-G92 Gamepad"
@@ -62,7 +63,7 @@ const page = () => {
                 </div>
             </Link>
             <Category />
-            <div className="flex flex-wrap justify-center lg:justify-between gap-6 mt-6 px-4 lg:px-0">
+            <div className="flex flex-wrap justify-center lg:justify-center gap-6 mt-6 px-4 lg:px-0">
                 <CategoryCard image="/images/mobile.png" heading="Phones" />
                 <CategoryCard image="/images/computer.png" heading="Computers" />
                 <CategoryCard image="/images/smartwatch.png" heading="SmartWatch" />
@@ -109,7 +110,7 @@ const page = () => {
             <MusicSection />
             <Explore />
 
-            <div className='flex flex-wrap justify-center gap-6 mt-6'>
+            <div className='flex flex-wrap justify-center lg:justify-center  gap-4 mt-6'>
                 <ExploreProducts
                     image='/images/dog.png'
                     heading='Breed Dry Dog Food'
