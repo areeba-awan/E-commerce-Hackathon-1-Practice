@@ -21,18 +21,19 @@ const Today = () => {
 
             {/* Time Section */}
             <div className="w-full lg:w-auto flex justify-center">
+{/* 
+            <Image src="http://localhost:3000/images/time.svg" 
+            style= {{width: '250px', height: 'auto' }}
+             alt="Time" className="lg-w-[302px] lg:h-[50px]" /> */}
 
-            <img src="http://localhost:3000/images/time.svg" 
-            style={{ width: '250px', height: 'auto' }}
-             alt="Time" />
-
-                {/* <Image
+                 <Image
                     src="/images/time.svg"
                     alt="time"
                     width={200}
-                    height={40}
+                    height={0} //40
                     className="lg:w-[302px] lg:h-[50px]"
-                /> */}
+                    layout='auto'
+                /> 
             </div>
         </div>
     )

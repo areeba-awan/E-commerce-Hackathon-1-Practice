@@ -84,16 +84,17 @@ const Footer = () => {
 
             {/* Copyright Section */}
             <div className='bg-black h-[40px] flex items-center justify-center gap-3 text-white'>
-            <img src="http://localhost:3000/images/copyright.svg"
+            {/* <img src="http://localhost:3000/images/copyright.svg"
              style={{ width: '20px', height: 'auto' }} 
-            alt="Copyright" />
+            alt="Copyright" /> */}
 
-                {/* <Image
+                 <Image
                     src={"/images/copyright.svg"}
                     alt='social'
                     width={20}
                     height={20}
-                /> */}
+                    className='h-auto'
+                /> 
                 <span className='w-full text-center sm:w-[311px] h-[24px]'>
                     Copyright Rimel 2022. All right reserved
                 </span>

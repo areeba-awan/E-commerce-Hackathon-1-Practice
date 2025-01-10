@@ -42,13 +42,14 @@ const Features = () => {
 
             <div className="grid grid-cols-1 gap-10 mt-28 lg:grid-cols-3 lg:gap-20 sm:px-4">
                 <div className="flex flex-col items-center justify-center text-center lg:text-center lg:items-center">
-                <img src="/images/logo1.png" style={{ width: '80px', height: 'auto' }} alt="Logo" />
+                {/* <img src="/images/logo1.png" style= {{ width: '80px', height: 'auto' }} alt="Logo" /> */}
 
                  <Image
                         src="/images/logo1.png"
                         width={80}
                         height={0}
                         alt="logo-1"
+                        className='h-auto'
                     /> 
                     <h1 className="mt-6 text-[20px] font-semibold lg:text-[24px]">
                         FREE AND FAST DELIVERY

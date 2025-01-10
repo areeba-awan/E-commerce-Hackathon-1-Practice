@@ -100,17 +100,15 @@ const HeroSection = () => {
 
                     {/* Dots Section */}
                     <div className="mt-6 flex justify-center">
-                    <img src="http://localhost:3000/images/dot.svg"  style={{ width: '100px', height: 'auto' }} alt="Dot" />
-
-
-{/* 
+                    {/* <img src="http://localhost:3000/images/dot.svg"  style={{ width: '100px', height: 'auto' }} alt="Dot" /> */}
+ 
                         <Image
                             src="/images/dot.svg"
                             alt="dots-image"
-                            width={90}
-                            height={12}
+                            width={100}
+                            height={0}
                             className="object-contain"
-                        /> */}
+                        /> 
                     </div>
                 </div>
             </div>
