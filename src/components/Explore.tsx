@@ -4,16 +4,16 @@ import Image from 'next/image'
 const Explore = () => {
   return (
     <div className="h-auto ml-8 lg:ml-28 mt-16 lg:mt-36 mb-12">
-      <img src="http://localhost:3000/images/products-heading.svg" 
+      {/* <img src="http://localhost:3000/images/products-heading.svg" 
       style={{ width: '200px', height: 'auto' }} 
-      alt="Products Heading" />
+      alt="Products Heading" /> */}
 
-        {/* <Image
+         <Image
             src={"/images/products-heading.svg"}
             alt='product'
             width={100}
             height={40}
-        /> */}
+        /> 
         <div className="flex justify-start mt-3">
             <h1 className="text-[28px] lg:text-[38px] font-semibold w-full lg:w-[400px] text-center lg:text-left">
             Explore Our Products
